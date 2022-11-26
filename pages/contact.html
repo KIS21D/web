@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Главная</title>
+</head>
+<body>
+    <header>
+        <h1>Web-технологии</h1>
+        <ul>
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="gallery.html">Фотогалерея</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+            <li><a href="../index.html#comps">Виды списков</a></li>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <h2>форма</h2>
+            <form action="">
+                <fieldset>
+                <legend>Как вам удобно получить ответ?</legend>
+                    <label for=""><input type="radio" name="svaz" id="post" value="по почте">по почте</label><br>
+                    <label for=""><input type="radio" name="svaz" id="tel" value="по телефону">по телефону</label><br>
+                    <label for=""><input type="radio" name="svaz" id="nootv" value="не отвечать">не отвечать</label>
+                </fieldset>
+
+                <div>
+                    <label for="theme">Укажите тему вопроса</label><br>
+                    <select name="" id="theme">
+                        <option value="работа">работа</option>
+                        <option value="сотрудничество">сотрудничество</option>
+                        <option value="личное">личное</option>
+                    </select>
+                </div>
+
+                <fieldset>
+                    <legend>Еще вопрос?</legend>
+                        <label for="checkbox1"><input type="checkbox" name="vopros" id="checkbox1" value="такой">такой</label><br>
+                        <label for="checkbox2"><input type="checkbox" name="" id="checkbox2" value="другой">другой</label><br>
+                        <label for="checkbox3"><input type="checkbox" name="" id="checkbox3" value="и еще один">и еще один</label>
+                    </fieldset>
+
+                <div>Ваш вопрос</div>
+                <div>
+                    <textarea cols="30" placeholder="Введите вопрос"></textarea>
+                </div>
+                <div>
+                    <label for="name">Ваше имя</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="email">Адрес почты</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <input type="submit" value="Отправить">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h3>2022-2023</h3>
+    </footer>
+</body>
+</html>

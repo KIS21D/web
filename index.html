@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
     <title>Главная</title>
 </head>
 <body>
     <header>
         <h1>Web-технологии</h1>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="pages/gallery.html">Фотогалерея</a></li>
+            <li><a href="pages/contact.html">Контакты</a></li>
+            <li><a href="index.html#comps">Виды списков</a></li>
+        </ul>
     </header>
+
     <main>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quas! Soluta doloremque veniam, corrupti sit pariatur aut iusto id, suscipit nemo delectus, error consequuntur facilis numquam minima iure laboriosam maiores.
+            Lorem dolor sit amet consectetur adipisicing elit. Laborum, quas! Soluta doloremque veniam, corrupti sit pariatur aut iusto id, suscipit nemo delectus, error consequuntur facilis numquam minima iure laboriosam maiores.
         </p>
         <img src="img/1.jpg" alt="краски">
         <div>
@@ -21,6 +29,52 @@
                 <a href="pages/gallery.html">Галерея</a>
             </div>
         </div>
+
+        <DL>
+            <dt>Список</dt>
+            <dd>упорядоченный набор элементов</dd>
+            <dt>Таблица</dt>
+            <dd>способ структурирования данных</dd>
+            <dd>распределяет данные по однотипным строкам и столбцам</dd>
+        </DL>
+        <h3>Виды списков</h3>
+        <a name="comps"></a>
+        <ol type="A">
+            <li>Маркированный</li>
+            <li>Нумерованный</li>
+            <li>Список определений</li>
+        </ol>
+
+        <section>
+            <table border="1">
+                <caption>Пример таблицы</caption>
+                <thead>
+                    <td>заголовок</td>
+                    <td>заголовок</td>
+                    <td>заголовок</td>
+                    <td>заголовок</td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">лето</td>
+                        <td>осень</td>
+                        <td><img src="img/1.jpg" alt="краска" width="100px"></td>
+                    </tr>
+                    <tr>
+                        <td>лето</td>
+                        <td>зима</td>
+                        <td rowspan="2">осень</td>
+                        <td>весна</td>
+                    </tr>
+                    <tr>
+                        <td>лето</td>
+                        <td>зима</td>
+                        <td>весна</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
     </main>
     <footer>
         <h3>2022-2023</h3>
